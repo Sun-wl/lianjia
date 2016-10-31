@@ -1,0 +1,103 @@
+body{
+    font-family:"微软雅黑";
+}
+
+/*头部start*/
+.header{
+    background: #00AE66;
+}
+.header>.row>div.col-xs-3{
+    padding:0;
+}
+.header>.row>div.col-xs-3.header2{
+    color: #fff;
+    padding:5px 0;
+}
+.header>.row>div.col-xs-3.header4{
+    color: #fff;
+    font-size:12px;
+    padding-top:5px;
+}
+.header>.row>div.col-xs-3.header4>div{
+    margin:0 5px;
+}
+/*头部end*/
+
+/*搜索框start*/
+.search{
+    background: #F4F4F4;
+    padding:10px 15px;
+    border-bottom:2px solid #DEDEDE;
+}
+.search .row{
+    margin:0;
+    height:40px;
+    background: #fff;
+    padding:5px 0;
+    border:1px solid #ccc;
+    border-radius:3px;
+}
+.search .row input{
+    height:30px;
+    border:none;
+    border-right:1px solid #ccc;
+}
+.search .row span{
+    height:30px;
+    line-height:30px;
+    color: #00AE66;
+    font-size:16px;
+}
+/*搜索框end*/
+
+/*下拉菜单start*/
+.three .row{
+    margin:0 -15px;
+}
+.three .row>div{
+    padding:10px 0;
+    border-bottom:1px solid #000;
+    border-right:1px solid #000;
+}
+.three .row>div.last{
+    border-right:none;
+}
+/*下拉菜单end*/
+
+/*内容start*/
+.container li{
+    padding:15px;
+    border-bottom:1px solid #C5C5C5;
+}
+.content_body>h1{
+    height:15px;
+    line-height:15px;
+    font-size:14px;
+    font-weight:600;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content_left>p{
+    font-size:12px;
+    color: #515258;
+    height:15px;
+    line-height:15px;
+    margin-bottom:0;
+}
+.content_left>button{
+    color: #3083B7;
+    border:1px solid #3083B7;
+    margin-right:5px;
+}
+.content_left>button.yellow{
+    color: #F1B800;
+    border:1px solid #F1B800;
+}
+.content_right{
+    margin-top:-40px;
+    color: #E52F00;
+    font-size:16px;
+}
+/*内容end*/

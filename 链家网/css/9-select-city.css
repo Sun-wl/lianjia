@@ -1,0 +1,22 @@
+body{
+    font-family:"微软雅黑";
+}
+
+/*头部start*/
+.header{
+    background: #00AE66;
+    padding:10px 0;
+    font-size:16px;
+    color: #fff;
+}
+/*头部end*/
+
+.content1{
+    padding:8px 15px;
+    font-size:12px;
+    background: #EAEAEB;
+}
+.content1.white{
+    background: #fff;
+    padding:10px 15px;
+}

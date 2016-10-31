@@ -1,0 +1,49 @@
+body{
+    font-family:"微软雅黑";
+}
+
+.container1 .row1 div{
+    padding:10px 0;
+}
+.container1 .row2 div{
+    height:3px;
+    background: #D1D1D1;
+}
+.container1 .row2 div.row2-active{
+    background-color: #39AC6A;
+}
+
+
+.container2{
+    border-bottom:1px solid #ccc;
+}
+.container2 .content{
+    border-bottom:1px solid #ccc;
+    padding:3px;
+    margin-left:0;
+}
+.container2 input{
+    border:none;
+    height:30px;
+    font-size:13px;
+}
+.container2 .noborder{
+    border:none;
+}
+
+.container3 button{
+    width:100%;
+    margin:10px 0;
+    background: #39AC6A;
+    color: #fff;
+    font-weight:500;
+}
+.container3 .row{
+    font-size:12px;
+}
+.container3 .row span a{
+    color: #39AC6A;
+}
+.container3 .row span a.black{
+    color: #000;
+}

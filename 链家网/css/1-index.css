@@ -1,0 +1,123 @@
+body{
+    font-family:"微软雅黑";
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/*上边start*/
+.header{
+    background-image: url("../images/bg.png");
+    background-size:cover;
+}
+.header-badge{
+    margin-top:20px;
+}
+.header-right{
+    color: #fff;
+    margin-top:-30px;
+}
+.header-right a{
+    color: #fff;
+    font-size:12px;
+}
+.header-right>div{
+    margin:0 5px;
+}
+.header-middle{
+    color: #fff;
+    margin:50px 0;
+}
+.header-middle>h1{
+    font-size:30px;
+    font-weight:900;
+}
+.header-middle>p{
+    font-size:20px;
+    font-weight:normal;
+}
+.header-bottom{
+    margin-bottom:10px;
+}
+.header-bottom>input{
+    background: #F3F0ED;
+}
+/*上边end*/
+
+/*二手房和租房start*/
+.content1{
+    padding:20px;
+    border-bottom:1px solid #C5C5C5;
+}
+.content1 a{
+    font-size:14px;
+    line-height:30px;
+}
+/*二手房和租房end*/
+.gap1{
+    height:15px;
+    background: #F4F4F4;
+}
+/*租房频道start*/
+.content2_left{
+    padding-left:30px;
+}
+.content2_left h1{
+    font-size:25px;
+    color: #00AD66;
+    font-weight:900;
+}
+.content2_left p{
+    font-size:14px;
+    color: #727272;
+}
+/*租房频道end*/
+.gap2{
+    height:10px;
+    background: #F4F4F4;
+}
+/*热门房源start*/
+.content3{
+    border:1px solid #C5C5C5;
+}
+.content3>h5{
+    color: #000;
+    font-size:14px;
+    font-weight:500;
+}
+.container-fluid li{
+    padding:15px 0;
+    border-bottom:1px solid #C5C5C5;
+}
+.content4_body>h1{
+    height:15px;
+    line-height:15px;
+    font-size:14px;
+    font-weight:600;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.content4_left>p{
+    font-size:12px;
+    color: #515258;
+    height:15px;
+    line-height:15px;
+    margin-bottom:0;
+}
+.content4_left>button{
+    color: #3083B7;
+    border:1px solid #3083B7;
+    margin-right:5px;
+}
+.content4_left>button.yellow{
+    color: #F1B800;
+    border:1px solid #F1B800;
+}
+.content4_right{
+    margin-top:-40px;
+    color: #E52F00;
+    font-size:16px;
+}
+/*热门房源end*/

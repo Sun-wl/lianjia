@@ -1,0 +1,35 @@
+body{
+    font-family:"微软雅黑";
+}
+.container1{
+    border-bottom:2px solid #ccc;
+}
+input{
+    border:none;
+    height:30px;
+    font-size:13px;
+}
+.content{
+    border-bottom:1px solid #ccc;
+    padding:3px;
+    margin-left:0;
+}
+.noborder{
+    border:none;
+}
+.container2 button{
+    width:100%;
+    margin:10px 0;
+    background: #39AC6A;
+    color: #fff;
+    font-weight:500;
+}
+.container2 .row{
+    font-size:12px;
+}
+.container2 .row a{
+    color: #39AC6A;
+}
+.container2 .row span a{
+    color: #000;
+}

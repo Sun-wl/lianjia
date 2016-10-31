@@ -1,0 +1,107 @@
+body{
+    font-family:"微软雅黑";
+}
+
+/*头部start*/
+.header{
+    background: #00AE66;
+}
+.header>.row>div.col-xs-3{
+    padding:0;
+}
+.header>.row>div.col-xs-3.header2{
+    color: #fff;
+    padding:5px 0;
+}
+.header>.row>div.col-xs-3.header4{
+    color: #fff;
+    font-size:12px;
+    padding-top:5px;
+}
+.header>.row>div.col-xs-3.header4>div{
+    margin:0 5px;
+}
+/*头部end*/
+
+/*图片轮播start*/
+.carousel img{
+    width:100%;
+}
+.text{
+    position: absolute;
+    right:0;
+    bottom:0;
+    background: #000;
+    font-size:12px;
+    color: #fff;
+    padding:3px;
+}
+/*图片轮播end*/
+
+/*关注start*/
+.attention{
+    background: #F9F9F9;
+    border-bottom:1px solid #ccc;
+}
+.attention.container .row{
+
+}
+.attention p{
+    padding:15px;
+    margin-bottom:0;
+    font-size:14px;
+    border-right:1px solid #ccc;
+}
+.attention .row div{
+    padding:15px 0;
+}
+.detail{
+    padding:10px 0;
+    border-bottom:1px solid #ccc;
+}
+.detail .row{
+    margin:0;
+}
+.detail .row>div{
+    border-right:1px solid #ccc;
+}
+.detail .row>div>.red{
+    color: #D43905;
+}
+/*关注end*/
+
+/*内容start*/
+.content .row{
+    padding:0 15px;
+}
+.content .row>div{
+    padding:15px 0;
+    border-bottom:1px solid #ccc;
+}
+.content .row>div>button.warning{
+    color: #FFB635;
+    border:1px solid #FFB635;
+}
+.content .row>div>button.info{
+    color: #076AB3;
+    border:1px solid #076AB3;
+}
+.content .row>div>button.success{
+    color: #007B00;
+    border:1px solid #007B00;
+}
+/*内容end*/
+
+/*底部start*/
+.fixed{
+    padding:10px 15px;
+    background: #fff;
+    border-top:1px solid #ccc;
+}
+.fixed .row>img.one,.fixed .row>.col-xs-8{
+    padding-right:0;
+}
+.fixed .row>img.two{
+    padding-left:0;
+}
+/*底部end*/
