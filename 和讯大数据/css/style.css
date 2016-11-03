@@ -1,0 +1,92 @@
+a{
+    color: #000;
+}
+a:hover,a:active{
+    text-decoration: none;
+}
+
+/*头部start*/
+.header_topRight{
+    height:40px;
+    padding:15px 3px;
+}
+.header_topRight>button{
+    margin:0 10px;
+}
+.header_topCenter a{
+    color: #000;
+}
+.header-topCenter-active>a{
+    color: #D7050B;
+}
+.header_topCenter>.row>div{
+    height:40px;
+    line-height:40px;
+    padding-top:10px;
+}
+.header-center{
+    background: #ccc;
+    height:3px;
+    margin:2px 0;
+}
+.header-center-active{
+    background: #D7050B;
+    height:3px;
+}
+.xs-nav{
+    margin:0 15px;
+}
+
+/*中间start*/
+.search{
+    border:1px solid #ccc;
+    margin:5px 0;
+}
+.search>ul{
+    padding:10px 0;
+}
+.search>ul>li{
+    border-right:1px solid #ccc;
+}
+#oneMenu{
+    width:100%;
+}
+
+.searched{
+    margin:10px 0;
+}
+.gap{
+    height:30px;
+    background: #F8F8F8;
+    border-bottom:1px solid #ccc;
+}
+.search-sm>ul>li{
+    width:80px;
+    text-align: center;
+}
+.search-sm>ul>li.nav-header{
+    font-weight:bold;
+    width:130px;
+    text-align: left;
+}
+.time{
+    margin-bottom:0;
+    background: #DBDBDB;
+    border:1px solid #ccc;
+}
+.time>ul>li>a.on{
+    padding:8px;
+}
+.text{
+    background: #F6F6F6;
+    padding:8px;
+    border:1px solid #ccc;
+}
+/*中间end*/
+
+/*底部*/
+.footer{
+    padding:20px;
+    background: #A8251D;
+    color: #fff;
+}
